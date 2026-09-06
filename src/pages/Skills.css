@@ -1,0 +1,43 @@
+.skills-page .page-hero {
+  padding-top: calc(var(--nav-h) + var(--space-20));
+  border-bottom: 1px solid var(--color-border);
+}
+.skills-page .page-hero__title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin-block: var(--space-4);
+}
+.skills-page .page-hero__sub {
+  font-size: var(--text-lg);
+  color: var(--color-mid);
+  max-width: 500px;
+  line-height: 1.7;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-16);
+}
+
+.skills-block__label {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-mid);
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.skills-block__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+@media (max-width: 640px) {
+  .skills-grid { grid-template-columns: 1fr; gap: var(--space-10); }
+}

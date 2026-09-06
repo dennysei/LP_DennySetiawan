@@ -1,0 +1,48 @@
+export const services = [
+  {
+    id: 'consulting',
+    title: 'Business Consulting',
+    positioning: 'Structured analysis for complex operational and organizational problems.',
+    capabilities: [
+      'Business process analysis & mapping',
+      'Operational diagnostics',
+      'KPI framework design',
+      'Process improvement',
+      'Risk identification',
+      'Internal control design & testing',
+      'Strategic recommendations',
+    ],
+    relatedExp: ['PT BP Consulting Group', 'PT Imora Motor'],
+    relatedCase: { label: 'RMODA Diagnostic', slug: 'rmoda' },
+  },
+  {
+    id: 'analysis',
+    title: 'Data Analysis',
+    positioning: 'Turning operational and business data into decisions that hold up under scrutiny.',
+    capabilities: [
+      'KPI & performance analysis',
+      'Trend analysis',
+      'Root-cause analysis',
+      'Transaction sampling',
+      'Data-driven recommendations',
+      'Management reporting',
+    ],
+    relatedExp: ['PT Imora Motor'],
+    relatedCase: { label: 'Dealer Analytics', slug: 'dealer-analytics' },
+  },
+  {
+    id: 'visualization',
+    title: 'Data Visualization',
+    positioning: 'Making performance data easier to understand and act on.',
+    capabilities: [
+      'Dashboard development',
+      'KPI monitoring views',
+      'Management-level reporting',
+      'Power BI',
+      'Looker Studio',
+      'Excel-based reporting & automation',
+    ],
+    relatedExp: ['PT Imora Motor'],
+    relatedCase: { label: 'Performance Dashboard', slug: 'dashboard' },
+  },
+];

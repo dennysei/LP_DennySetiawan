@@ -1,0 +1,30 @@
+export const professionalSkills = [
+  'Internal Control',
+  'Operational Audit',
+  'Risk Assessment',
+  'Business Process Analysis',
+  'Control Design & Testing',
+  'Process Walkthrough',
+  'Transaction Sampling',
+  'Finding Analysis',
+  'Root Cause Analysis',
+  'KPI Analysis & Design',
+  'Process Improvement',
+  'Stakeholder Management',
+  'Strategic Analysis',
+  'RACI Development',
+  'SOP Development',
+  'PDCA Methodology',
+];
+
+export const technicalSkills = [
+  'Advanced Excel',
+  'Power Query',
+  'Pivot Table',
+  'VBA Automation',
+  'Power BI',
+  'Looker Studio',
+  'Dashboard Development',
+  'Data Analysis',
+  'Automated Reporting',
+];
