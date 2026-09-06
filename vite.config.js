@@ -4,5 +4,5 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/denny-portfolio/', // Tambahan untuk GitHub Pages
+  base: '/LP_DennySetiawan/', // Sesuai dengan nama repository lo
 })
